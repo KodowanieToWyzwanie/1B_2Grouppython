@@ -1,0 +1,15 @@
+def nwd(a,b):
+  while b!=0:
+    a,b =b,a%b
+  return a
+def nwd1(a,b):
+  while a!=b:
+    if a>b:
+      a= a-b
+    else:
+      b= b-a
+  return a
+
+def nww(a,b):
+  c,d = a,b
+  return c*d / nwd(a,b)
