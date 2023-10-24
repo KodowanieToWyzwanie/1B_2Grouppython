@@ -1,0 +1,52 @@
+#10 razy sprawdzamy czy szczęśliwy numerek
+#i =0
+# while i<10:
+#   a= int(input("podaj liczbę ")) 
+#   if a == 9 or a ==11:
+#     print("szczęśliwy numerek")
+#   else:
+#     print("musisz odpowiadać ")
+#   i+=1
+  
+# 1. program co drukuje cyfry od 1 do 10
+# i =1
+# while i <=10:
+#   print(i)
+#   i+=1
+
+# 2. co drukuje to jest {i}-te powtorzenie zamiast ikolejne powtorzenie 
+# i =0
+# while i<10:
+#   print(f"to jest {i+1}-te powtórzenie")
+#   #print("to jest",i+1,"-te powtorzenie ")
+#   i+=1
+
+
+#program liczący dzielenie 
+# a = int(input("podaj 1. liczbę "))
+# b = int(input("podaj 2. liczbę "))
+
+# if b ==0:
+#   print("nie można dzielić przez zero")
+# else:
+#   print(a/b)
+
+
+#program obliczający bmi
+# weight = int(input("Podaj wagę w kg "))
+# height = float(input("Podaj wzrost w m "))#1.8 1.78
+
+# bmi = round(weight/height**2,2)
+# print(f"twoje bmi wynosi {bmi}")
+    
+zwierze = str(input("Podaj nazwę ulubionego zwierzęcia\n"))
+
+if zwierze=="kot" or zwierze=="pies":
+  print(f"twoje ulubione zwierzę to {zwierze}")
+else:
+  print("nie wiem co to za zwierze")
+
+
+
+
+  
