@@ -1,0 +1,78 @@
+
+
+
+
+
+wlaczony = False #boolean True False
+while True:
+  rozkaz = input("\nPodaj rozkaz\n")
+  if rozkaz == "start":
+    if not wlaczony: #wlaczony == False
+      print("włącz silnik. Gotowi do drogi !!!")
+      wlaczony = True
+    else:
+      print("silnik jest już włączony")
+  elif rozkaz == "stop":
+    if wlaczony:
+      print("wyłącz silnik")
+      wlaczony = False
+    else:
+      print("silnik jest już wyłączony")
+  elif rozkaz == "help" or rozkaz == "pomoc":
+    print('''
+start -> włącz silnik
+stop  -> wyłącz silnik
+quit  -> wyjście z gry
+    ''')
+  elif rozkaz == "quit":
+    print("do zobaczenia kolejnym razem")
+    break
+  else:
+    print("jasnygwint")
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# # import os
+# started = False
+
+
+# while True:
+#   # print("Co chcesz zrobić? \n")
+#   command = input("> ").lower() #don't repeat yourself
+#   if command in  ("help", "pomoc", "pomocy") :
+#     print('''start -> zapalam silnik
+# stop  -> gaszę silnik
+# quit  -> wychodzę z gry
+# ''')
+#   elif command == "start":
+#     if not started:
+#       print("Silnik zapalony... Gotowi do drogi !!!")
+#       started = True
+#     else:
+#       print("Auto już gotowe. Czekamy na Twój ruch...")   
+#   elif command == "stop":
+#     if started:
+#       print("Silnik wyłączony. Stoimy") 
+#       started = False
+#     else:
+#       print("Silnik już wyłączony. Możesz go zapalić.")
+#   elif command =="quit":
+#     # os.system("clear")
+#     print("Czas się pożegnać zapraszam znowu")
+#     break
+#   else:
+#     print("Nie rozumiem o co Ci chodzi")
