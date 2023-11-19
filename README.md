@@ -1,1 +1,1 @@
-# 1B_2grupa_czwartek
+# 1Bpython_grupa1_czwartek
