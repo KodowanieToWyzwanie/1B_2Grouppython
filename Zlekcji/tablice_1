@@ -1,0 +1,35 @@
+zwierze = "niedźwiedź"
+print(len(zwierze))
+# print((zwierze+" ")*2)
+# print(zwierze[0:4])
+# print(zwierze[::2])
+# #palindrom
+# palindrom = "Katarzyna" #==anyzrataK
+# if palindrom == palindrom[::-1]:
+#   print("tak ")
+# else:
+#   print("nie")
+# #zaokrąglanie
+# print(round(4.55555,3))
+#systemy liczbowe
+# a = 10
+# b = bin(a)
+# print(b[2:])
+# sz = hex(a)
+# osem = oct(a)
+# print(sz[2:])
+# print(osem[2:])
+# print(int(b,2))
+# print(int(sz,16))
+# print(int(osem,8))
+
+tab = []
+liczba = 72
+for i in range(1, 73):
+  if liczba % i == 0:
+    tab.append(i)
+
+print(*tab)
+
+#length - długość tablicy
+print(len(tab))
