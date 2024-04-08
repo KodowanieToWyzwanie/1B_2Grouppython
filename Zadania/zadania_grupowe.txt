@@ -1,0 +1,11 @@
+'''Gra czy dana liczba jest dzielnikiem wylosowanej liczby dopóki użytkownik, pętla działa dopóki użytkownik nie poda liczby która nie jest dzielnikiem'''
+'''Użytkownik podaje liczbę, a następnie program pyta się o kolejne liczby i użytkownik dostaje informacje czy podana liczba jest liczbą z rozkładu na czynniki pierwsze ''
+Program losuje dwie liczby, wyświetla, a użytkownik ma obliczyć ich największy wspólny dzielnik'
+Program losuje dwie liczby, wyświetla, a użytkownik ma obliczyć ich największa wspólną wielokrotność'
+'''komputer losuje jaką liczbę binarną i użytkownik musi w 3 podejściach przeliczyć na właściwą'''
+'''losowanie literki komputer losuje jedną literę z alfabetu, a następnie użytkownik ją zgaduje (program może podpowiadać czy większa czy mniejsza)'''
+'''Program prosi użytkownika o podanie liczby pierwszej użytkownik ma 3 szanse, w przeciwnym razie przegrywa (dla utrudnienia  podaje przedział, liczbę szans, )'''
+
+Zadbaj o prawidłową komunikację z użytkownikiem. Określ samodzielnie zakresy do liczenia (pamiętaj im większy zakres tym ciężej będzie coś obliczyć)\
+
+W razie pytań - pytajcie
